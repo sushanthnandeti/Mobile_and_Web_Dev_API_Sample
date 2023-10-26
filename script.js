@@ -13,7 +13,7 @@ fetch("https://randomuser.me/api/?results=5").then((data)=>{
         <td>${values.location.city}</td>
       </tr>`;
     })
-    document.getElementById("table_body").innerHTML = tableData;
+    document.getElementById("table").innerHTML = tableData;
 }).catch((err)=>{
     console.log(err);
 })
